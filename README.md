@@ -2,6 +2,12 @@
 
 **MacTools** 是一款现代化的 macOS 原生应用程序，专为安全研究人员、逆向工程师和开发者设计。它提供了一站式的可视化界面，用于自动化管理 macOS 应用的动态库注入（Dylib/Framework Injection）流程，并集成了多种实用的二进制分析与处理工具。
 
+## 截图
+<img width="600" height="400" alt="e7fcf85056f1df696b5cf8cd73f52241" src="https://github.com/user-attachments/assets/0a117c0b-7ff8-4032-9077-e9b24f548344" />
+<img width="600" height="400" alt="46df958d6680577c99832376d2334f57" src="https://github.com/user-attachments/assets/3b8f139b-b479-4f2b-a999-43189c033761" />
+<img width="600" height="400" alt="eb3c5949be965846b9c1c100508d238d" src="https://github.com/user-attachments/assets/05d4eb2d-31d2-41d2-b87f-d131fd17e857" />
+<img width="600" height="400" alt="eb7590386455db2a0a8985de327aa917" src="https://github.com/user-attachments/assets/b7febbc9-4043-4978-bf4f-f2120581a9cf" />
+
 ## 核心功能详解
 
 ### 1. 动态库注入 (Injector)
@@ -80,14 +86,10 @@
 *   macOS 12.0 或更高版本
 *   Xcode 13.0+ (用于编译)
 
-### 编译与运行
-1. 克隆项目到本地：
-   ```bash
-   git clone https://github.com/your-username/MacTools.git
-   ```
-2. 使用 Xcode 打开 `MacTools.xcodeproj`。
-3. 确保你的开发者证书配置正确（或使用本地签名）。
-4. 点击运行（CMD+R）。
+### 运行
+1. 打开DMG安装软件：
+2. 给应用授权环境，设置->隐私->app管理
+3. 点击运行
 
 ## 免责声明
 
