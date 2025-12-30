@@ -3,10 +3,10 @@
 **MacTools** 是一款现代化的 macOS 原生应用程序，专为安全研究人员、逆向工程师和开发者设计。它提供了一站式的可视化界面，用于自动化管理 macOS 应用的动态库注入（Dylib/Framework Injection）流程，并集成了多种实用的二进制分析与处理工具。
 
 ## 截图
-<img width="600" height="400" alt="e7fcf85056f1df696b5cf8cd73f52241" src="https://github.com/user-attachments/assets/0a117c0b-7ff8-4032-9077-e9b24f548344" />
-<img width="600" height="400" alt="46df958d6680577c99832376d2334f57" src="https://github.com/user-attachments/assets/3b8f139b-b479-4f2b-a999-43189c033761" />
-<img width="600" height="400" alt="eb3c5949be965846b9c1c100508d238d" src="https://github.com/user-attachments/assets/05d4eb2d-31d2-41d2-b87f-d131fd17e857" />
-<img width="600" height="400" alt="eb7590386455db2a0a8985de327aa917" src="https://github.com/user-attachments/assets/b7febbc9-4043-4978-bf4f-f2120581a9cf" />
+<img width="400" height="300" alt="e7fcf85056f1df696b5cf8cd73f52241" src="https://github.com/user-attachments/assets/0a117c0b-7ff8-4032-9077-e9b24f548344" />
+<img width="400" height="300" alt="46df958d6680577c99832376d2334f57" src="https://github.com/user-attachments/assets/3b8f139b-b479-4f2b-a999-43189c033761" />
+<img width="400" height="300" alt="eb3c5949be965846b9c1c100508d238d" src="https://github.com/user-attachments/assets/05d4eb2d-31d2-41d2-b87f-d131fd17e857" />
+<img width="400" height="300" alt="eb7590386455db2a0a8985de327aa917" src="https://github.com/user-attachments/assets/b7febbc9-4043-4978-bf4f-f2120581a9cf" />
 
 ## 核心功能详解
 
