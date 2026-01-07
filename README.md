@@ -3,10 +3,16 @@
 **MacTools** 是一款现代化的 macOS 原生应用程序，专为安全研究人员、逆向工程师和开发者设计。它提供了一站式的可视化界面，用于自动化管理 macOS 应用的动态库注入（Dylib/Framework Injection）流程，并集成了多种实用的二进制分析与处理工具。
 
 ## 截图
-<img width="400" height="300" alt="e7fcf85056f1df696b5cf8cd73f52241" src="https://github.com/user-attachments/assets/0a117c0b-7ff8-4032-9077-e9b24f548344" />
-<img width="400" height="300" alt="46df958d6680577c99832376d2334f57" src="https://github.com/user-attachments/assets/3b8f139b-b479-4f2b-a999-43189c033761" />
-<img width="400" height="300" alt="eb3c5949be965846b9c1c100508d238d" src="https://github.com/user-attachments/assets/05d4eb2d-31d2-41d2-b87f-d131fd17e857" />
-<img width="400" height="300" alt="eb7590386455db2a0a8985de327aa917" src="https://github.com/user-attachments/assets/b7febbc9-4043-4978-bf4f-f2120581a9cf" />
+<img width="300" height="200" alt="e7fcf85056f1df696b5cf8cd73f52241" src="https://github.com/user-attachments/assets/0a117c0b-7ff8-4032-9077-e9b24f548344" />
+<img width="300" height="200" alt="46df958d6680577c99832376d2334f57" src="https://github.com/user-attachments/assets/3b8f139b-b479-4f2b-a999-43189c033761" />
+<img width="300" height="200" alt="eb3c5949be965846b9c1c100508d238d" src="https://github.com/user-attachments/assets/05d4eb2d-31d2-41d2-b87f-d131fd17e857" />
+<img width="300" height="200" alt="eb7590386455db2a0a8985de327aa917" src="https://github.com/user-attachments/assets/b7febbc9-4043-4978-bf4f-f2120581a9cf" />
+<img width="300" height="200" alt="fad8e8e506257692dec7431fb8691500" src="https://github.com/user-attachments/assets/651b7c2d-8dcb-47ba-aefa-ff0c2e2cff20" />
+<img width="300" height="200" alt="476b428ffce8b7a7b5ec3d35f7d30808" src="https://github.com/user-attachments/assets/44f2900f-93c8-445e-b24e-facaacd24b04" />
+<img width="300" height="200" alt="16643f733d3996e37603006422f0ebbf" src="https://github.com/user-attachments/assets/a7b4bc84-330e-4d2b-8075-ea3b94c96f8e" />
+<img width="300" height="200" alt="8d825c6612fd0d657d704b66688b59a2" src="https://github.com/user-attachments/assets/82752fe7-77f4-4aeb-9eb8-24b088307ab5" />
+<img width="300" height="200" alt="7aace1d4f9a9ec39132250d4c7f8b10b" src="https://github.com/user-attachments/assets/348dd058-2a54-47ea-bd51-df8d2c8f2a52" />
+
 
 ## 核心功能详解
 
@@ -90,6 +96,26 @@
 1. 打开DMG安装软件：
 2. 给应用授权环境，设置->隐私->app管理
 3. 点击运行
+
+## 更新日志 (Update Log)
+
+### v2.0 - 2026-01-07
+**核心功能升级**
+-   **在线资源库 (Online Library)**：
+    -   集成官方插件库，支持一键下载注入。
+    -   **自定义仓库**：支持添加任意 GitHub 公开仓库 (`User/Repo`)，自动同步与持久化。
+    -   **远程加载**：支持通过直链 (`URL`) 直接下载并注入动态库。
+-   **应用分身 (App Cloning)**：
+    -   新增“制作分身”功能，支持为任意 App 创建独立运行的副本 (Coexisting Bundle)。
+    -   自动处理 Bundle ID 修改与签名剥离，确保分身共存。
+-   **应用瘦身 (App Slimming)**：
+    -   逆向工具箱新增“瘦身”工具，一键提取当前系统架构 (如 arm64)，剔除冗余架构，大幅减小体积。
+
+**体验与交互优化**
+-   **实时文件监听**：应用列表现在会自动感知 `/Applications` 目录的变化（安装/删除/重命名），实现秒级自动刷新，无需手动重启。
+-   **内置使用教程**：
+    -   新增“用法”窗口，以图文并茂的方式引导新用户使用各项功能。
+    -   注入界面新增“地球图标”作为在线库入口。
 
 ## 免责声明
 
